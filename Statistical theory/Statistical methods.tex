@@ -1,1 +1,27 @@
 \subsection{Statistical methods}
+
+\subsubsection{Confidence intervals}
+The confidence interval is a good tool to use, when trying to estimate a parameter of a population. Its used to create an interval, where the parameter has a probability to lie inside of. This probability is called the confidence level and it's a chosen value, usually the chosen confidence level is either 95\% or 99\%. The confidence interval will become bigger with a larger confidence level. A good confidence interval is small with a large confidence level, this will usually occur when the sample size is large. The chosen confidence level relates to an $\alpha$-value, where as an example the chosen confidence level is 95\%, then the $\alpha$-value would be 5\% or normally written as $0.05$. The $\alpha$-value will sometimes be needed to find the critical value, that is used to calculate the margin of error, as an example it's used when trying to find the critical value of the confidence interval, when working with a t-distribution.
+\newline
+To set up a confidence interval, the margin of error needs to be computed and then that will be both added and subtracted from the point estimate. This will give the values of the outer bounds of the interval. The margin of error is calculated from this formula:
+$$Margin\_of\_error = critical\_value \pm standard\_error$$
+\newline
+The standard error will change depending on which parameter that the confidence interval is estimating, but the general formula for the standard error is:
+$$\frac{\sigma}{\sqrt{n}}$$
+\newline
+An example of computing a confidence interval of the mean while working with a standard normal distribution, then the formula for the confidence interval would be this:
+
+$$P(-z_{\alpha/2}<Z<z_{\alpha/2}) = 1-\alpha$$
+\newline
+Where $1-\alpha$ is the confidence level. As it's the mean that is being estimated, then instead of Z-score, then $\mu$ must be isolated and that is done by multiplying $\frac{\sigma}{\sqrt{n}}$ and subtracting $\bar{X}$ on all sides, then multiplying all side by $-1$ to remove the minus sign. So the formula for a confidence interval of the mean will look like this:
+
+$$P(\bar{X}-z_{\alpha/2}\frac{\sigma}{\sqrt{n}}<\mu<\bar{X}+z_{\alpha/2}\frac{\sigma}{\sqrt{n}})=1-\alpha$$
+\newline
+This formula will give the upper and lower bounds of the confidence interval.\\
+
+\noindent \textbf{The interpretation of a confidence interval}
+\newline
+To interpret a confidence interval, it would be incorrect to interpret the confidence level of some value $x$, as the probability of the true parameter being inside of the interval. The reason behind this is that the computed interval is static, so either the value $x$ is inside the interval or it's not. So the correct way of interpreting the confidence interval is by taking multiple samples and computing the confidence interval for all samples, then the value $x$ would reside inside 95\% of the confidence intervals.
+\textbf{Kilde for fortolkningen af kofidense intervaller:}
+\newline
+$http://www.drhuang.com/science/mathematics/book/probability_and_statistics_for_engineering_and_the_sciences.pdf$
