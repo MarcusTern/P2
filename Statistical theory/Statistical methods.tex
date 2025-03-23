@@ -25,3 +25,17 @@ To interpret a confidence interval, it would be incorrect to interpret the confi
 \textbf{Kilde for fortolkningen af kofidense intervaller:}
 \newline
 $http://www.drhuang.com/science/mathematics/book/probability_and_statistics_for_engineering_and_the_sciences.pdf$
+
+
+\subsubsection{Hypothesis testing}
+A hypothesis test is used to test an assumption about a population. This is done from a sample of the population, as the information about the population is usually hard to come by. A hypothesis test is set up, by having a null hypothesis and an alternate hypothesis.
+$$H_0 = Null\; hypothesis$$
+$$H_a = Alternate\; hypothesis$$
+When working with hypothesis testing, the hypothesis $H_0$ is usually represented as the status quo, where as the hypothesis $H_a$ is represented as the opposition. It is also important to note that there is only two outcomes of a hypothesis test, either $H_0$ is rejected in favor of $H_a$ or $H_0$ is failed to be rejected. Therefore in no situation can $H_0$ be stated to be an absolute truth, as there might be other samples where $H_0$ will be rejected. Therefore in a hypothesis test $H_0$ needs to be the thing that can be rejected and if $H_0$ gets rejected, then $H_a$ will become the new status quo until proven otherwise.\\
+In a hypothesis test $H_0$ will be the assumption that a parameter for two populations is the same, where as $H_a$ can be either one of three assumptions, depending on the intention of the hypothesis test.
+$$H_0: \theta = \theta_0$$
+$$1.\;H_a: \theta \neq \theta_0$$
+$$2.\;H_a: \theta < \theta_0$$
+$$3.\;H_a: \theta > \theta_0$$
+When the direction of the rejection is not important and also is unknown, then (1) will be the case. This scenario sets up a two-tailed-test, where the hypothesis test is used to reject $H_0$ if $H_a$ is either significantly larger or smaller than $H_0$, this means that the critical area is on both sides of the difference of $\theta$ and $\theta_0$. Either (2) or (3) will set up a one-tailed-test, where depending on what is important, either the hypothesis test is used to determine if $H_a$ is significantly bigger or smaller than $H_0$. This means that the critical area only spans one side of the difference between $\theta$ and $\theta_0$.
+ 

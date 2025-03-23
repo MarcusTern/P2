@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.19)  20 MAR 2025 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.19)  22 MAR 2025 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -110,21 +110,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
-))
-Overfull \hbox (160.45001pt too wide) in paragraph at lines 22--16
+
+Overfull \hbox (160.45001pt too wide) in paragraph at lines 22--28
 \OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==www:drhuang:com=scie
 nce=mathematics=book=probability[]nd[]tatistics[]or[]ngineering[]nd[]he[]cience
-s:pdf$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--16
-
+s:pdf$ 
  []
 
 
 
-[7]
+[7]))
 
 [8]
 
@@ -144,7 +139,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--16
 
 [16]
 
-[17] (P2.aux)
+[17]
+
+[18] (P2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -175,9 +172,9 @@ msfonts/cm/cmsy10.pfb><C:/Users/marcu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy5.pfb><C:/Users/marcu/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/marcu/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on P2.pdf (17 pages, 201558 bytes).
+Output written on P2.pdf (18 pages, 205686 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
